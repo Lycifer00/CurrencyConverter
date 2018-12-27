@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="global">
-    <form action="/details" method="post">
+    <form action="${pageContext.request.contextPath}/details" method="post">
         <fieldset>
             <legend>Convert</legend>
             <label>Rate: </label><br/>
